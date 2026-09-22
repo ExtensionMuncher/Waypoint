@@ -43,11 +43,3 @@ Typical location:
 SillyTavern normally renders a contiguous block of chat history. To preserve host behavior and avoid risky DOM/chat-state hacks, Waypoint loads the older messages between the currently rendered history and your target. It does this in batches so the UI can breathe between loads.
 
 That means jumping extremely far back in an enormous chat may still cause SillyTavern to render a large amount of history. Waypoint avoids changing or virtualizing core chat state.
-
-## Changelog
-
-### v0.1.2
-- Fixed successful message lookup producing no visible movement.
-- Navigation now scrolls SillyTavern's actual `#chat` viewport directly.
-- Added a hard-scroll fallback if smooth scrolling does not move the correct container.
-- Added post-scroll verification: Waypoint only reports success if the target message is actually inside the chat viewport.
