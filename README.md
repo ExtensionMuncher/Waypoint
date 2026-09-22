@@ -1,7 +1,5 @@
 # Waypoint
 
-**v0.1.2 — Chat viewport navigation fix**
-
 A tiny SillyTavern quality-of-life extension for jumping directly to a specific chat message by its SillyTavern message ID (`mesid`).
 
 ## What it does
