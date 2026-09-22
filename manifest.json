@@ -1,0 +1,17 @@
+{
+  "display_name": "Waypoint",
+  "loading_order": 50,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "Reticent Aoi",
+  "version": "0.1.2",
+  "homePage": "",
+  "auto_update": false,
+  "minimum_client_version": "1.18.0",
+  "description": "Jump directly to a SillyTavern chat message by message ID from the magic-wand Extensions menu.",
+  "hooks": {
+    "activate": "init"
+  }
+}
